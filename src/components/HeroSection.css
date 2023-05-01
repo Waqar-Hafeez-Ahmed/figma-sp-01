@@ -7,27 +7,88 @@
   background: #18181f;
 }
 
+.ellipse {
+  position: absolute;
+  width: 676px;
+  height: 676px;
+  left: -279px;
+  top: -127px;
+  background: #00464a;
+  opacity: 0.65;
+  filter: blur(147px);
+}
+
+.ellipse2 {
+  position: absolute;
+  width: 676px;
+  height: 676px;
+  left: 1116px;
+  top: -256px;
+  background: #08083c;
+  opacity: 0.55;
+  filter: blur(147px);
+}
+.logo {
+  background: none;
+  position: absolute;
+  width: 113px;
+  height: 41px;
+  left: 60px;
+  top: 27px;
+}
 .hero-text {
+  font-family: "Sora", sans-serif;
+}
+.hero-text h2 {
   position: absolute;
   width: 536px;
   height: 174px;
-  left: 150px;
+  left: 140px;
   top: 173px;
-
-  font-family: "Sora";
+  color: #ffffff;
   font-style: normal;
   font-weight: 700;
   font-size: 46px;
-  line-height: 125%;
-  /* or 58px */
-
+  line-height: 58px;
   letter-spacing: -0.025em;
-
-  color: #ffffff;
+  background: none;
 }
 
+.hero-text p {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  width: 443px;
+  height: 84px;
+  left: 140px;
+  top: 379px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 158%;
+  color: #d1d1d2;
+  opacity: 0.8;
+  background: none;
+}
+
+.union {
+  background: none;
+}
 .hero-text span {
-  background: -webkit-linear-gradient(#90ffca, #00ffd1, #fff96a);
+  /* background: -webkit-linear-gradient(to bottom, #00ffd1, #90ffca, #fff96a);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+
+  background-image: linear-gradient(to right, #fff96a, #90ffca, #00ffd1);
+  -webkit-background-clip: text; /* clip the gradient to the text */
+  -webkit-text-fill-color: transparent; /* make the text transparent */
+}
+
+.banner-image {
+  background: #8ac186;
+  position: absolute;
+  width: 520px;
+  height: auto;
+  left: 939px;
+  top: 99px;
+  border-radius: 20px;
 }
