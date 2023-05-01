@@ -1,0 +1,33 @@
+.background {
+  position: absolute;
+  width: 1600px;
+  height: 1071px;
+  left: 36px;
+  top: 27px;
+  background: #18181f;
+}
+
+.hero-text {
+  position: absolute;
+  width: 536px;
+  height: 174px;
+  left: 150px;
+  top: 173px;
+
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 125%;
+  /* or 58px */
+
+  letter-spacing: -0.025em;
+
+  color: #ffffff;
+}
+
+.hero-text span {
+  background: -webkit-linear-gradient(#90ffca, #00ffd1, #fff96a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
