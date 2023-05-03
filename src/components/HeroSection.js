@@ -3,8 +3,10 @@ import banner from "../public/assets/woman image.png";
 import ellipse from "../public/assets/Ellipse 39.png";
 import ellipse2 from "../public/assets/Ellipse 40.png";
 import eth from "../public/svg/Union.svg";
+import image from "../public/assets/hero image (2).png";
 
 import "./HeroSection.css";
+import Card from "./Card";
 const HeroSection = () => {
   return (
     <div className="background">
@@ -13,7 +15,7 @@ const HeroSection = () => {
 
       <div className="hero-background">
         <img className="logo" src={logo} alt="logo" />
-        <div></div>
+
         <div className="herosection">
           <div className="hero-text">
             <h2>
@@ -28,8 +30,14 @@ const HeroSection = () => {
               <br /> product managers, and project managers in the world.
             </p>
           </div>
-          <img className="banner-image" src={banner} alt="women" />
+          <div className="banner-image">
+            <img src={banner} alt="women" />
+          </div>
         </div>
+      </div>
+      <div className="flex-container">
+        <Card className="banner-image2" img={image} />
+        <Card className="banner-image2" img={banner} />
       </div>
     </div>
   );
