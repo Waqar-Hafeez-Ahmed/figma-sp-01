@@ -1,5 +1,9 @@
 .background {
   position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
   width: 1600px;
   height: 1071px;
   left: 36px;
@@ -20,9 +24,12 @@
 
 .ellipse2 {
   position: absolute;
-  width: 676px;
-  height: 676px;
-  left: 1116px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  /* width: 676px;
+  height: 676px; */
+  /* left: 1116px; */
   top: -256px;
   background: #08083c;
   opacity: 0.55;
@@ -117,6 +124,8 @@
   height: 468.01px;
   left: 1349.95px;
   top: 248.96px;
+  /* padding-left: 50px; */
+  /* overflow: hidden; */
 }
 
 .vector {

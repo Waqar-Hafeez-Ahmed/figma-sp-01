@@ -17,7 +17,6 @@ const HeroSection = () => {
     <div className="background">
       <img className="ellipse" src={ellipse} alt="" />
       <img className="ellipse2" src={ellipse2} alt="" />
-
       <div className="hero-background">
         <img className="logo" src={logo} alt="logo" />
 
@@ -46,6 +45,7 @@ const HeroSection = () => {
         <Card className="banner-image2" img={image} />
         <Card className="banner-image2" img={image2} />
       </div>
+
       <Card className="banner-image3" img={image} />
       <img className="vector" src={pattern} alt="women" />
       <img className="vector2" src={pattern2} alt="women" />
