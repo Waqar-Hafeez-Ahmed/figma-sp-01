@@ -1,4 +1,4 @@
-import logo from "../public/svg/logo image.svg";
+// import logo from "../public/svg/logo image.svg";
 import banner from "../public/assets/woman image.png";
 import ellipse from "../public/assets/Ellipse 39.png";
 import ellipse2 from "../public/assets/Ellipse 40.png";
@@ -12,15 +12,18 @@ import "./HeroSection.css";
 import Card from "./Card";
 import RatingBox from "./RatingBox";
 import InputFeild from "./InputFeild";
+import NavBar from "./NavBar";
 const HeroSection = () => {
   return (
-    <div className="background">
-      <img className="ellipse" src={ellipse} alt="" />
-      <img className="ellipse2" src={ellipse2} alt="" />
-      <div className="hero-background">
-        <img className="logo" src={logo} alt="logo" />
+    <div>
+      <NavBar />
+      <div className="background">
+        <img className="ellipse" src={ellipse} alt="" />
+        <img className="ellipse2" src={ellipse2} alt="" />
+        <div className="hero-background">
+          {/* <img className="logo" src={logo} alt="logo" /> */}
 
-        <div className="herosection">
+          {/* <div className="herosection">
           <div className="hero-text">
             <h2>
               Hire top freelancers in <br />
@@ -36,20 +39,21 @@ const HeroSection = () => {
           </div>
           <div className="banner-image">
             <img src={banner} alt="women" />
-          </div>
-          <RatingBox />
+          </div> */}
+          {/* <RatingBox /> */}
+          {/* </div> */}
         </div>
-      </div>
 
-      <div className="flex-container">
-        <Card className="banner-image2" img={image} />
-        <Card className="banner-image2" img={image2} />
-      </div>
+        <div className="flex-container">
+          <Card className="banner-image2" img={image} />
+          <Card className="banner-image2" img={image2} />
+        </div>
 
-      <Card className="banner-image3" img={image} />
-      <img className="vector" src={pattern} alt="women" />
-      <img className="vector2" src={pattern2} alt="women" />
-      <InputFeild />
+        <Card className="banner-image3" img={image} />
+        {/* <img className="vector" src={pattern} alt="women" />
+        <img className="vector2" src={pattern2} alt="women" /> */}
+        {/* <InputFeild /> */}
+      </div>
     </div>
   );
 };
