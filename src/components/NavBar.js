@@ -79,7 +79,7 @@ const NavBar = () => {
     // </Navbar>
 
     <div
-      className=""
+      id="menu"
       style={{
         zIndex: "1",
         position: "relative",
@@ -101,6 +101,7 @@ const NavBar = () => {
         >
           <img className="site-logo" src={logo} alt="logo" />
         </div>
+
         <div
           className="col-5"
           style={{
@@ -135,7 +136,7 @@ const NavBar = () => {
           <Nav.Link href="#pricing">Refer Friends</Nav.Link>
         </div>
         <div
-          className="col-4"
+          className="col-3"
           style={{
             display: "flex",
             justifyContent: "space-around",

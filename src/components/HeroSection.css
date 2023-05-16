@@ -2,7 +2,7 @@
   background: #18181f;
   margin-top: 15px;
   margin-left: 15px;
-  overflow: hidden;
+  height: 140vh;
 }
 
 .ellipse {
@@ -29,14 +29,7 @@
   opacity: 0.55;
   filter: blur(147px);
 }
-.logo {
-  background: none;
-  position: absolute;
-  width: 113px;
-  height: 41px;
-  left: 60px;
-  top: 27px;
-}
+
 .hero-text {
   font-family: "Sora", sans-serif;
 }

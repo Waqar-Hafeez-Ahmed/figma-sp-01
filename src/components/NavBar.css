@@ -11,6 +11,12 @@
   justify-content: space-between;
 }
 
+@media (max-width: 1200px) {
+  #menu {
+    display: none;
+  }
+}
+
 .dot {
   margin: auto 6px;
   width: 4px;

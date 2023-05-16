@@ -1,12 +1,9 @@
 * {
   padding: 0;
   margin: 0;
-
-  /* overflow: hidden; */
 }
 
 .app {
   background: #212131;
-  height: 100vh;
   overflow: hidden;
 }

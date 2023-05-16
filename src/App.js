@@ -1,13 +1,15 @@
 import "./App.css";
+import Features from "./components/Features";
 import HeroSection from "./components/HeroSection";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from "./components/NavBar";
+import WhyCrypto from "./components/WhyCrypto";
 
 function App() {
   return (
     <div className="app">
-      {/* <NavBar /> */}
       <HeroSection />
+      <Features />
+      <WhyCrypto />
     </div>
   );
 }
