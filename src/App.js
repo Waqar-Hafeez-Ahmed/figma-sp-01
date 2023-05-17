@@ -3,6 +3,7 @@ import Features from "./components/Features";
 import HeroSection from "./components/HeroSection";
 import "bootstrap/dist/css/bootstrap.min.css";
 import WhyCrypto from "./components/WhyCrypto";
+import Tab from "./components/Tab";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <Features />
       <WhyCrypto />
+      <Tab />
     </div>
   );
 }

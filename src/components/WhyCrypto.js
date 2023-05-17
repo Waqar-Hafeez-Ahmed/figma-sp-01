@@ -1,7 +1,10 @@
-import { Button } from "bootstrap";
 import React from "react";
+import Button from "react-bootstrap/Button";
+import Poster from "../public/assets/poster.png";
 
 function WhyCrypto() {
+  const src =
+    "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4";
   return (
     <div className="container">
       <div className="row">
@@ -71,6 +74,42 @@ function WhyCrypto() {
               </li>
             </div>
           </ul>
+          <Button
+            variant="outline-success"
+            style={{
+              fontFamily: "Roboto",
+              height: 53,
+              width: 138,
+              marginTop: 45,
+
+              borderColor: "rgba(0, 223, 154, 0.4)",
+              color: "#00DF9A",
+              backgroundColor: "rgba(0, 223, 154, 0.08)",
+              alignItems: "center",
+
+              fontWeight: 700,
+            }}
+          >
+            Learn more <i class="fa fa-angle-right"></i>
+          </Button>
+        </div>
+        <div className="col-6">
+          <video
+            controls
+            style={{
+              background: "#35363D",
+              width: 648,
+              height: 481,
+              // border: "1px solid #35363D",
+              borderRadius: 20,
+              marginBottom: 20,
+              cursor: "pointer",
+            }}
+            poster={Poster}
+          >
+            <source src={src} type="video/mp4" />
+            Sorry, your browser doesn't support embedded videos.
+          </video>
         </div>
       </div>
     </div>

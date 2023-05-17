@@ -51,8 +51,8 @@ function Features() {
         }}
       >
         {arr.map((data) => (
-          <div className="col-5" style={{ padding: 0 }}>
-            <img src={data.img} alt="" style={{ paddingBottom: 5 }} />
+          <div className="col-5" style={{ padding: 30, paddingRight: 40 }}>
+            <img src={data.img} alt="" style={{ paddingBottom: 10 }} />
             <h1 style={{ fontSize: 30 }}>{data.heading}</h1>
             <p
               style={{
