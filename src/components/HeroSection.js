@@ -19,35 +19,57 @@ const HeroSection = () => {
         <NavBar />
         <img className="ellipse" src={ellipse} alt="" />
         {/* <img className="ellipse2" src={ellipse2} alt="" /> */}
-        <div className="hero-text">
-          <h2>
-            Hire top freelancers in <br />
-            confidence using <img className="union" src={eth} alt="" />
-            <br /> <span>BlockChain </span>
-            technology
-          </h2>
-          <p>
-            Find great talent. Build your business.
-            <br /> Take your career to the next level. finance experts,
-            <br /> product managers, and project managers in the world.
-          </p>
+
+        <div className="container">
+          <div className="row" style={{ paddingTop: 50, paddingBottom: 50 }}>
+            <div
+              className="col-md-6"
+              style={{
+                alignSelf: "center",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <div
+                className="hero-text"
+                style={{
+                  fontFamily: "Sora, sans-serif",
+                }}
+              >
+                <h1>
+                  Hire top freelancers in <br />
+                  confidence using <img className="union" src={eth} alt="" />
+                  <br /> <span>BlockChain </span>
+                  technology
+                </h1>
+                <p>
+                  Find great talent. Build your business.
+                  <br /> Take your career to the next level. finance experts,
+                  <br /> product managers, and project managers in the world.
+                </p>
+                <InputFeild />
+              </div>
+            </div>
+            <div className="col-md-6" style={{ alignSelf: "center" }}>
+              <div className="banner-image">
+                <img src={banner} alt="women" />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div className="banner-image">
-        <img src={banner} alt="women" />
-      </div>
-      <RatingBox />
+        <RatingBox />
 
-      <div className="flex-container">
+        {/* <div className="flex-container">
         <Card className="banner-image2" img={image} />
         <Card className="banner-image2" img={image2} />
-      </div>
-      {/* <Card className="banner-image3" img={image} /> */}
-
+      </div> */}
+        {/* <Card className="banner-image3" img={image} /> */}
+        {/* 
       <img className="vector" src={pattern} alt="women" />
       <img className="vector2" src={pattern2} alt="women" />
-      <InputFeild />
+       */}
+      </div>
     </>
   );
 };

@@ -6,8 +6,8 @@ import box2 from "../public/assets/Rectangle2.png";
 
 const RatingBox = () => {
   return (
-    <>
-      <div className="ratings">
+    <div className="ratings">
+      <div>
         <div>
           <img className="rectangle" src={box} alt="rectangle" />
         </div>
@@ -24,7 +24,7 @@ const RatingBox = () => {
         <p className="text6">Leslie Alexandar</p>
         <p className="text7">Product Designer</p>
       </div>
-    </>
+    </div>
   );
 };
 

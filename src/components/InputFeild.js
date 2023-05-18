@@ -15,19 +15,25 @@ export default function InputFeild() {
     alert(val);
   };
   return (
-    <div>
-      <div className="input"></div>
-      <img className="search" src={search} alt="search" />
-      <input
-        onChange={changeHandler}
-        onClick={clickHandler}
-        className="input2"
-        type="text"
-        value={val}
-      />
-      <button className="hero-btn" onClick={click}>
-        Hire Talent
-      </button>
+    <div className="container-fluid justify-content-around">
+      <div className="row">
+        <div className="col px-md-0">
+          <div className="input"></div>
+          <img className="search" src={search} alt="search" />
+          <input
+            onChange={changeHandler}
+            onClick={clickHandler}
+            className="input2"
+            type="text"
+            value={val}
+          />
+        </div>
+        <div className="col">
+          <button className="hero-btn" onClick={click}>
+            Hire Talent
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

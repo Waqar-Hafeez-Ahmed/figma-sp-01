@@ -5,10 +5,15 @@
   height: 140vh;
 }
 
+@media (max-width: 1200px) {
+  .ellipse {
+    display: none;
+  }
+}
 .ellipse {
   position: absolute;
-  width: 676px;
-  height: 676px;
+  width: 600px;
+  height: auto;
   left: -279px;
   top: -127px;
   background: #00464a;
@@ -16,54 +21,36 @@
   filter: blur(147px);
 }
 
-.ellipse2 {
+/* .ellipse2 {
   position: absolute;
   width: 100%;
   max-width: 400px;
   height: auto;
-  /* width: 676px;
-  height: 676px; */
-  /* left: 1116px; */
+  width: 676px;
+  height: 676px;
+  left: 1116px;
   top: -256px;
   background: #08083c;
   opacity: 0.55;
   filter: blur(147px);
-}
+} */
 
-.hero-text {
-  font-family: "Sora", sans-serif;
-}
-.hero-text h2 {
-  position: absolute;
-  width: 536px;
-  height: 174px;
-  left: 140px;
-  top: 173px;
+.hero-text h1 {
   color: #ffffff;
-  font-style: normal;
   font-weight: 700;
-  font-size: 46px;
-  line-height: 58px;
+  line-height: normal;
   letter-spacing: -0.025em;
-  background: none;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .hero-text p {
   font-family: "Roboto", sans-serif;
-  position: absolute;
-  width: 443px;
-  height: 84px;
-  left: 140px;
-  top: 379px;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 110%;
   line-height: 158%;
   color: #d1d1d2;
   opacity: 0.8;
-  background: none;
-  z-index: 1;
 }
 
 .union {
@@ -74,22 +61,25 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
 
+  /* font-weight: bolder; */
   background-image: linear-gradient(to right, #fff96a, #90ffca, #00ffd1);
   -webkit-background-clip: text; /* clip the gradient to the text */
   -webkit-text-fill-color: transparent; /* make the text transparent */
 }
 
 .banner-image {
-  position: absolute;
+  /* position: absolute;
   left: 939px;
-  top: 99px;
-  background: none;
+  top: 99px; */
+  display: flex;
+  justify-content: center;
+  /* background: none; */
   z-index: 1;
 }
 
 .banner-image img {
   height: auto;
-  width: 520px;
+  width: 80%;
   background: #8ac186;
   border-radius: 20px;
 }
