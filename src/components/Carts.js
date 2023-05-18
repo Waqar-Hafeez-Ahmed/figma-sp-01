@@ -1,11 +1,52 @@
 import React from "react";
+import Slider from "react-slick";
+import CCard from "./CCard";
+import ImgCard1 from "../public/assets/CCimage1.png";
+import ImgCard2 from "../public/assets/CCimage2.png";
+import ImgCard3 from "../public/assets/CCimage3.png";
+import ImgCard4 from "../public/assets/CCimage4.png";
 
 function Carts() {
+  var settings = {
+    // dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+  };
+
   return (
-    <div className="container" style={{ position: "absolute" }}>
-      Carts
+    <div
+      className="container-fluid justify-content-around"
+      style={{ color: "white" }}
+    >
+      <div className="row ">
+        <Slider {...settings}>
+          <div className="col pe-md-2">
+            <CCard src={ImgCard1} />
+          </div>
+          <div className="col pe-md-2">
+            <CCard src={ImgCard2} />
+          </div>
+          <div className="col pe-md-2">
+            <CCard src={ImgCard3} />
+          </div>
+          <div className="col pe-md-2">
+            <CCard src={ImgCard4} />
+          </div>
+          <div className="col pe-md-2">
+            <CCard src={ImgCard1} />
+          </div>
+          <div className="col pe-md-2">
+            {/* column padding https://www.codeply.com/p/Mvf9kSXNxH */}
+            <CCard src={ImgCard2} />
+          </div>
+        </Slider>
+      </div>
     </div>
   );
 }
 
 export default Carts;
+
+// slick - https://github.com/akiran/react-slick
