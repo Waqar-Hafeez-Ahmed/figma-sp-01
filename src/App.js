@@ -4,6 +4,8 @@ import HeroSection from "./components/HeroSection";
 import "bootstrap/dist/css/bootstrap.min.css";
 import WhyCrypto from "./components/WhyCrypto";
 import Tab from "./components/Tab";
+import Category from "./components/Category";
+import LightForm from "./components/LightForm";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Features />
       <WhyCrypto />
       <Tab />
+      <Category />
+      <LightForm />
     </div>
   );
 }

@@ -15,11 +15,16 @@ export default function InputFeild() {
     alert(val);
   };
   return (
-    <div className="container-fluid justify-content-around">
+    <div className="container-fluid input-main justify-content-around">
       <div className="row">
         <div className="col px-md-0">
           <div className="input"></div>
-          <img className="search" src={search} alt="search" />
+          <img
+            className="search"
+            src={search}
+            alt="search"
+            style={{ position: "absolute", paddingTop: 15, paddingLeft: 20 }}
+          />
           <input
             onChange={changeHandler}
             onClick={clickHandler}

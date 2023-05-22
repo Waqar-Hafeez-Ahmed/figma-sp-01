@@ -5,6 +5,11 @@
   z-index: -1;
 } */
 
+@media (max-width: 1600px) {
+  .input-main {
+    display: none;
+  }
+}
 .input2 {
   width: 300px;
   height: 61px;
