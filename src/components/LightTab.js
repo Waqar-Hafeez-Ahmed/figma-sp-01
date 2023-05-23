@@ -2,9 +2,9 @@ import React from "react";
 
 function Tab() {
   return (
-    <div className="container">
+    <div className="">
       {/* <!-- Tabs navs --> */}
-      <div className="row">
+      <div className="row" style={{ paddingLeft: 25 }}>
         <ul
           class="nav  mb-3"
           id="ex1"
@@ -32,7 +32,7 @@ function Tab() {
               aria-selected="true"
               style={{ color: "black", textDecorationLine: "underline" }}
             >
-              Talent Freelancers
+              For Entrepreneur
             </a>
           </li>
           <li class="nav-item" role="presentation">
@@ -46,7 +46,7 @@ function Tab() {
               aria-controls="ex1-tabs-2"
               aria-selected="false"
             >
-              Job / Projects
+              For Freelancers
             </a>
           </li>
         </ul>
