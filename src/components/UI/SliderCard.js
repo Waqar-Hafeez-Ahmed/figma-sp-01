@@ -1,6 +1,6 @@
 import React from "react";
 
-function CCard(props) {
+function SliderCard(props) {
   return (
     <div
       className="card text-center"
@@ -17,11 +17,11 @@ function CCard(props) {
           quae.
         </p>
         <a href="/" className="btn btn-outline-success">
-          View Profile
+          View Profiless
         </a>
       </div>
     </div>
   );
 }
 
-export default CCard;
+export default SliderCard;

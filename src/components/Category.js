@@ -8,7 +8,7 @@ import Img6 from "../public/svg/Group (4).svg";
 import Img7 from "../public/svg/XMLID_324_.svg";
 import Img8 from "../public/svg/Architecture.svg";
 import Img9 from "../public/svg/Music & Audio.svg";
-import CategoryCard from "./CategoryCard";
+import CategoryCard from "./UI/CategoryCard";
 
 function Category() {
   return (

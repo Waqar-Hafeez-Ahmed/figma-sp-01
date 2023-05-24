@@ -2,16 +2,16 @@ import banner from "../public/assets/woman image.png";
 import ellipse from "../public/assets/Ellipse 39.png";
 // import ellipse2 from "../public/assets/Ellipse 40.png";
 import eth from "../public/svg/Union.svg";
-import image from "../public/assets/hero image (2).png";
-import image2 from "../public/assets/image 7.png";
-import pattern from "../public/assets/Vector.png";
-import pattern2 from "../public/assets/Vector (1).png";
+// import image from "../public/assets/hero image (2).png";
+// import image2 from "../public/assets/image 7.png";
+// import pattern from "../public/assets/Vector.png";
+// import pattern2 from "../public/assets/Vector (1).png";
 
-import "./HeroSection.css";
-import Card from "./Card";
-import RatingBox from "./RatingBox";
-import InputFeild from "./InputFeild";
-import NavBar from "./NavBar";
+import "./Style/HeroSection.css";
+// import Card from "./UI/HeroCard";
+import RatingBox from "./UI/RatingBox";
+import InputFeild from "./UI/InputFeild";
+import NavBar from "./UI/NavBar";
 const HeroSection = () => {
   return (
     <>

@@ -1,12 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
-import CCard from "./CCard";
-import ImgCard1 from "../public/assets/CCimage1.png";
-import ImgCard2 from "../public/assets/CCimage2.png";
-import ImgCard3 from "../public/assets/CCimage3.png";
-import ImgCard4 from "../public/assets/CCimage4.png";
+import SliderCard from "./SliderCard";
+import ImgCard1 from "../../public/assets/CCimage1.png";
+import ImgCard2 from "../../public/assets/CCimage2.png";
+import ImgCard3 from "../../public/assets/CCimage3.png";
+import ImgCard4 from "../../public/assets/CCimage4.png";
 
-function Carts() {
+function SliderSec() {
   var settings = {
     // dots: true,
     infinite: true,
@@ -23,23 +23,23 @@ function Carts() {
       <div className="row ">
         <Slider {...settings}>
           <div className="col pe-md-2">
-            <CCard src={ImgCard1} />
+            <SliderCard src={ImgCard1} />
           </div>
           <div className="col pe-md-2">
-            <CCard src={ImgCard2} />
+            <SliderCard src={ImgCard2} />
           </div>
           <div className="col pe-md-2">
-            <CCard src={ImgCard3} />
+            <SliderCard src={ImgCard3} />
           </div>
           <div className="col pe-md-2">
-            <CCard src={ImgCard4} />
+            <SliderCard src={ImgCard4} />
           </div>
           <div className="col pe-md-2">
-            <CCard src={ImgCard1} />
+            <SliderCard src={ImgCard1} />
           </div>
           <div className="col pe-md-2">
             {/* column padding https://www.codeply.com/p/Mvf9kSXNxH */}
-            <CCard src={ImgCard2} />
+            <SliderCard src={ImgCard2} />
           </div>
         </Slider>
       </div>
@@ -47,6 +47,6 @@ function Carts() {
   );
 }
 
-export default Carts;
+export default SliderSec;
 
 // slick - https://github.com/akiran/react-slick

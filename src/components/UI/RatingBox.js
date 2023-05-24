@@ -1,8 +1,8 @@
-import "./RatingBox.css";
-import box from "../public/assets/Rectangle.png";
-import star from "../public/svg/star.svg";
-import btc from "../public/svg/bitcoin.svg";
-import box2 from "../public/assets/Rectangle2.png";
+import "../Style/RatingBox.css";
+import box from "../../public/assets/Rectangle.png";
+import star from "../../public/svg/star.svg";
+import btc from "../../public/svg/bitcoin.svg";
+import box2 from "../../public/assets/Rectangle2.png";
 
 const RatingBox = () => {
   return (

@@ -3,9 +3,10 @@ import Features from "./components/Features";
 import HeroSection from "./components/HeroSection";
 import "bootstrap/dist/css/bootstrap.min.css";
 import WhyCrypto from "./components/WhyCrypto";
-import Tab from "./components/Tab";
+import SliderComp from "./components/SliderComp";
 import Category from "./components/Category";
 import LightForm from "./components/LightForm";
+import JoinUs from "./components/JoinUs";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <HeroSection />
       <Features />
       <WhyCrypto />
-      <Tab />
+      <SliderComp />
       <Category />
       <LightForm />
+      <JoinUs />
     </div>
   );
 }

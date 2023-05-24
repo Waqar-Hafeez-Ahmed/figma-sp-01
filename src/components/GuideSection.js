@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import LightCard from "./LightCard";
+import LightCard from "./UI/GuideCard.js";
 import Img1 from "../public/assets/LC1.png";
 import Img2 from "../public/assets/LC2.jpg";
 import Img3 from "../public/assets/LC3.png";

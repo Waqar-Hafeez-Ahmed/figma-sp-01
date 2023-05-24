@@ -1,6 +1,6 @@
-import "./NavBar.css";
+import "../Style/NavBar.css";
 import { Nav, NavDropdown, Button } from "react-bootstrap";
-import logo from "../public/svg/logo image.svg";
+import logo from "../../public/svg/logo image.svg";
 // import dot from "../public/assets/dot.png";
 
 const NavBar = () => {

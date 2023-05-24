@@ -1,7 +1,7 @@
 import React from "react";
-import Carts from "./Carts";
+import SliderSec from "./UI/SliderSec";
 
-function Tab() {
+function SliderComp() {
   return (
     <div className="container">
       {/* <!-- Tabs navs --> */}
@@ -59,7 +59,7 @@ function Tab() {
           aria-labelledby="ex1-tab-1"
         >
           {/* Tab 1 content */}
-          <Carts />
+          <SliderSec />
         </div>
         <div
           class="tab-pane fade"
@@ -75,6 +75,6 @@ function Tab() {
   );
 }
 
-export default Tab;
+export default SliderComp;
 
 //https://www.youtube.com/watch?v=rH9jM-8hAD8

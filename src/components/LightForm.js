@@ -1,5 +1,5 @@
 import React from "react";
-import LightTab from "./LightTab";
+import LightTab from "./UI/LightTab";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import "./InputFeild.css";
-import search from "../public/svg/search icon.svg";
+import "../Style/InputFeild.css";
+import search from "../../public/svg/search icon.svg";
 
 export default function InputFeild() {
   const [val, setVal] = useState("Search Talent / Project / Job");
