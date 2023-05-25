@@ -1,0 +1,33 @@
+.social-media {
+  margin-top: 15px;
+}
+
+.social-media ul {
+  display: flex;
+  justify-self: end;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #b78c33;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.social-media ul li a {
+  /* display: inline-block; */
+
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #b78c33;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.social-media ul li a:hover {
+  background: #b78c33;
+  color: #fff;
+  border-color: #b78c33;
+}

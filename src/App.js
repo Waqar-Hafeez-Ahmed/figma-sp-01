@@ -7,6 +7,7 @@ import SliderComp from "./components/SliderComp";
 import Category from "./components/Category";
 import LightForm from "./components/LightForm";
 import JoinUs from "./components/JoinUs";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Category />
       <LightForm />
       <JoinUs />
+      <Footer />
     </div>
   );
 }
