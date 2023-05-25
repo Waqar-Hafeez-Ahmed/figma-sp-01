@@ -10,11 +10,11 @@ function Footer() {
   const arr = [Img1, Img2, Img3, Img4, Img5];
 
   return (
-    <div
-      className="container-fluid "
-      style={{ paddingTop: 100, paddingLeft: 30 }}
-    >
-      <div className="row" style={{ maxWidth: "85%" }}>
+    <div className="container-fluid " style={{ paddingTop: 100 }}>
+      <div
+        className="row"
+        style={{ paddingLeft: 30, maxWidth: "85%", marginBottom: 80 }}
+      >
         <div
           className="col-2"
           style={{
@@ -22,6 +22,7 @@ function Footer() {
             gap: 20,
             justifyContent: "left",
             flexDirection: "column",
+            marginRight: 40,
           }}
         >
           <div className="" style={{}}>
@@ -64,200 +65,1028 @@ function Footer() {
               marginTop: 0,
             }}
           >
-            204 Review on Trustpilot
+            204 Review on{" "}
+            <span
+              style={{
+                color: "#00DF9A",
+              }}
+            >
+              Trustpilot
+            </span>
           </p>
         </div>
 
         <div className="col">
           <ul>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Contact
+            <li
+              style={{
+                fontSize: 14,
+                fontWeight: 500,
+                listStyle: "none",
+                textDecoration: "none",
+                color: "#4F5054",
+                marginBottom: 20,
+              }}
+            >
+              Find Talent
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Design & Creative
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Address
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Developers
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Help
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Art Directors
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                support
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Sales & Marketing
+              </a>
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Writing & Translation
+              </a>
+            </li>{" "}
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Finance & Accounting
               </a>
             </li>
           </ul>
         </div>
         <div className="col">
           <ul>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Contact
+            <li
+              style={{
+                fontSize: 14,
+                fontWeight: 500,
+                listStyle: "none",
+                textDecoration: "none",
+                color: "#4F5054",
+                marginBottom: 20,
+              }}
+            >
+              Find Talent
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Design & Creative
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Address
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Developers
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Help
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Art Directors
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                support
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Sales & Marketing
+              </a>
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Writing & Translation
+              </a>
+            </li>{" "}
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Finance & Accounting
               </a>
             </li>
           </ul>
         </div>
         <div className="col">
           <ul>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Contact
+            <li
+              style={{
+                fontSize: 14,
+                fontWeight: 500,
+                listStyle: "none",
+                textDecoration: "none",
+                color: "#4F5054",
+                marginBottom: 20,
+              }}
+            >
+              Find Talent
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Design & Creative
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Address
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Developers
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Help
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Art Directors
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                support
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Sales & Marketing
+              </a>
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Writing & Translation
+              </a>
+            </li>{" "}
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Finance & Accounting
               </a>
             </li>
           </ul>
         </div>
         <div className="col">
           <ul>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Contact
+            <li
+              style={{
+                fontSize: 14,
+                fontWeight: 500,
+                listStyle: "none",
+                textDecoration: "none",
+                color: "#4F5054",
+                marginBottom: 20,
+              }}
+            >
+              Find Talent
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Design & Creative
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Address
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Developers
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Help
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Art Directors
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                support
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Sales & Marketing
+              </a>
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Writing & Translation
+              </a>
+            </li>{" "}
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Finance & Accounting
               </a>
             </li>
           </ul>
         </div>
       </div>
-      <div className="row" style={{ display: "flex", textAlign: "center" }}>
+      <hr style={{ color: "white" }} />
+      {/* Second Row  */}
+      <div
+        className="row"
+        style={{ paddingLeft: 30, maxWidth: "85%", marginBottom: 80 }}
+      >
         <div className="col">
           <ul>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Contact
+            <li
+              style={{
+                fontSize: 14,
+                fontWeight: 500,
+                listStyle: "none",
+                textDecoration: "none",
+                color: "#4F5054",
+                marginBottom: 20,
+              }}
+            >
+              Find Talent
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Design & Creative
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Address
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Developers
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Help
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Art Directors
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                support
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Sales & Marketing
+              </a>
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Writing & Translation
+              </a>
+            </li>{" "}
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Finance & Accounting
               </a>
             </li>
           </ul>
         </div>
         <div className="col">
           <ul>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Contact
+            <li
+              style={{
+                fontSize: 14,
+                fontWeight: 500,
+                listStyle: "none",
+                textDecoration: "none",
+                color: "#4F5054",
+                marginBottom: 20,
+              }}
+            >
+              Find Talent
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Design & Creative
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Address
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Developers
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Help
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Art Directors
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                support
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Sales & Marketing
+              </a>
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Writing & Translation
+              </a>
+            </li>{" "}
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Finance & Accounting
               </a>
             </li>
           </ul>
         </div>
         <div className="col">
           <ul>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Contact
+            <li
+              style={{
+                fontSize: 14,
+                fontWeight: 500,
+                listStyle: "none",
+                textDecoration: "none",
+                color: "#4F5054",
+                marginBottom: 20,
+              }}
+            >
+              Find Talent
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Design & Creative
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Address
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Developers
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Help
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Art Directors
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                support
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Sales & Marketing
+              </a>
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Writing & Translation
+              </a>
+            </li>{" "}
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Finance & Accounting
               </a>
             </li>
           </ul>
         </div>
         <div className="col">
           <ul>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Contact
+            <li
+              style={{
+                fontSize: 14,
+                fontWeight: 500,
+                listStyle: "none",
+                textDecoration: "none",
+                color: "#4F5054",
+                marginBottom: 20,
+              }}
+            >
+              Find Talent
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Design & Creative
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Address
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Developers
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                Help
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Art Directors
               </a>
             </li>
-            <li>
-              <a href="/" style={{ textDecoration: "none", color: "#4F5054" }}>
-                support
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Sales & Marketing
+              </a>
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Writing & Translation
+              </a>
+            </li>{" "}
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Finance & Accounting
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="col">
+          <ul>
+            <li
+              style={{
+                fontSize: 14,
+                fontWeight: 500,
+                listStyle: "none",
+                textDecoration: "none",
+                color: "#4F5054",
+                marginBottom: 20,
+              }}
+            >
+              Find Talent
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Design & Creative
+              </a>
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Developers
+              </a>
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Art Directors
+              </a>
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Sales & Marketing
+              </a>
+            </li>
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Writing & Translation
+              </a>
+            </li>{" "}
+            <li
+              style={{
+                fontWeight: 500,
+                marginBottom: 20,
+              }}
+            >
+              <a
+                href="/"
+                style={{
+                  textDecoration: "none",
+                  color: "rgba(209, 209, 210, 1)",
+                }}
+              >
+                Finance & Accounting
               </a>
             </li>
           </ul>
