@@ -24,6 +24,9 @@
   font-size: 16px;
   color: #b78c33;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #b78c33;
+  color: #fff;
+  border-color: #b78c33;
 }
 
 .social-media ul li a:hover {
