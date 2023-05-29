@@ -9,7 +9,7 @@ function WhyCrypto() {
     <div className="container">
       <div className="row">
         <div
-          className="col-6"
+          className="col-md-6"
           style={{
             background: "#292A33",
             color: "white",
@@ -29,7 +29,7 @@ function WhyCrypto() {
                 "transparent" /* make the text transparent */,
               fontSize: 30,
               fontWeight: 700,
-              width: 330,
+              maxWidth: 330,
             }}
           >
             Why businesses turn to We are Jobless?
@@ -39,7 +39,7 @@ function WhyCrypto() {
               color: "rgba(209, 209, 210, 1)",
               opacity: 0.8,
               paddingBottom: 5,
-              width: 440,
+              maxWidth: 440,
               marginTop: 15,
             }}
           >
@@ -81,6 +81,7 @@ function WhyCrypto() {
               height: 53,
               width: 138,
               marginTop: 45,
+              marginBottom: 20,
 
               borderColor: "rgba(0, 223, 154, 0.4)",
               color: "#00DF9A",
@@ -93,13 +94,19 @@ function WhyCrypto() {
             Learn more <i class="fa fa-angle-right"></i>
           </Button>
         </div>
-        <div className="col-6">
+        <div
+          className="col-md-6"
+          style={{
+            alignSelf: "center",
+          }}
+        >
           <video
             controls
             style={{
+              // alignSelf: "center",
               background: "#35363D",
-              width: 648,
-              height: 481,
+              maxWidth: "100%",
+              maxHeight: "100%",
               // border: "1px solid #35363D",
               borderRadius: 20,
               marginBottom: 20,

@@ -16,7 +16,7 @@ function Footer() {
         style={{ paddingLeft: 30, maxWidth: "85%", marginBottom: 80 }}
       >
         <div
-          className="col-2"
+          className="col-md-2"
           style={{
             display: "flex",
             gap: 20,

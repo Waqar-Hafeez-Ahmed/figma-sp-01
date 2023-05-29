@@ -27,35 +27,35 @@ function Category() {
           flexDirection: "row",
           gap: 20,
           paddingBottom: 50,
-          paddingLeft: 50,
+          // paddingLeft: 50,
           margin: "auto",
         }}
       >
-        <div className="col-2">
+        <div className="col-md-2">
           <CategoryCard src={Img1} desc={"Development and It"} />
         </div>
-        <div className="col-2">
+        <div className="col-md-2">
           <CategoryCard src={Img2} desc={"Design and Creative"} />
         </div>
-        <div className="col-2">
+        <div className="col-md-2">
           <CategoryCard src={Img3} desc={"Digital Marketing"} />
         </div>
-        <div className="col-2">
+        <div className="col-md-2">
           <CategoryCard src={Img4} desc={"Writing and Translation"} />
         </div>
-        <div className="col-2">
+        <div className="col-md-2">
           <CategoryCard src={Img5} desc={"Programming and Tech"} />
         </div>
-        <div className="col-2">
+        <div className="col-md-2">
           <CategoryCard src={Img6} desc={"Finance and Accounting"} />
         </div>
-        <div className="col-2">
+        <div className="col-md-2">
           <CategoryCard src={Img7} desc={"Video and Annimation"} />
         </div>
-        <div className="col-2">
+        <div className="col-md-2">
           <CategoryCard src={Img8} desc={"Architecture"} />
         </div>
-        <div className="col-2">
+        <div className="col-md-2">
           <CategoryCard src={Img9} desc={"Music and Audio"} />
         </div>
       </div>

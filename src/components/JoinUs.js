@@ -14,7 +14,10 @@ function JoinUs() {
         justifyContent: "space-between",
       }}
     >
-      <div className="col-6" style={{ alignSelf: "center", paddingLeft: 40 }}>
+      <div
+        className="col-md-6"
+        style={{ alignSelf: "center", paddingLeft: 40 }}
+      >
         <h1
           style={{
             fontFamily: "Sora",
@@ -42,7 +45,7 @@ function JoinUs() {
           world. Check any pro’s work samples, client reviews.
         </p>
         <div className="row" style={{ paddingTop: 10, maxWidth: "90%" }}>
-          <div className="col-6" style={{ alignSelf: "center" }}>
+          <div className="col-md-6" style={{ alignSelf: "center" }}>
             <h3
               style={{ fontWeight: 700, color: "#18181F", paddingBottom: 10 }}
             >
@@ -86,7 +89,7 @@ function JoinUs() {
               ></i>
             </Button>
           </div>
-          <div className="col-6" style={{ alignSelf: "center" }}>
+          <div className="col-md-6" style={{ alignSelf: "center" }}>
             <h3
               style={{ fontWeight: 700, color: "#18181F", paddingBottom: 10 }}
             >
@@ -132,7 +135,7 @@ function JoinUs() {
           </div>
         </div>
       </div>
-      <div className="col-5">
+      <div className="col-md-5">
         <img src={Img1} alt="" />
       </div>
     </div>

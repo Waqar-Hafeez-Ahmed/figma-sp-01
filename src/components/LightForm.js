@@ -19,20 +19,24 @@ function LightForm() {
             How it work?
           </h5>
           <div
-            className="col-5"
+            className="col-md-5"
             style={{
               paddingTop: 20,
               paddingBottom: 30,
               paddingLeft: 5,
-
+              // paddingRight: 40,
               maxWidth: 500,
-              marginLeft: -100,
+              marginLeft: -50,
             }}
           >
             <div
               class="accordion accordion-flush"
               id="accordionPanelsStayOpenExample"
-              style={{ paddingLeft: 20, borderLeft: "1px solid lightgray" }}
+              style={{
+                paddingLeft: 50,
+                borderLeft: "1px solid lightgray",
+                // textAlign: "center",
+              }}
             >
               <div
                 class="accordion-item"
@@ -40,7 +44,7 @@ function LightForm() {
               >
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                   <button
-                    class="accordion-button collapsed"
+                    // class="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseOne"
@@ -53,6 +57,7 @@ function LightForm() {
                       color: " #909093",
                       fontWeight: "800",
                       border: "none",
+                      paddingBottom: 20,
                     }}
                   >
                     1. Create your account
@@ -72,7 +77,7 @@ function LightForm() {
               >
                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                   <button
-                    class="accordion-button"
+                    // class="accordion-button"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseTwo"
@@ -84,6 +89,9 @@ function LightForm() {
                       background: "none",
                       color: "black",
                       fontWeight: "800",
+                      paddingBottom: 20,
+
+                      border: "none",
                     }}
                   >
                     2. Post a project or contest
@@ -109,7 +117,7 @@ function LightForm() {
               >
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                   <button
-                    class="accordion-button collapsed"
+                    // class="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseThree"
@@ -121,6 +129,8 @@ function LightForm() {
                       background: "none",
                       color: " #909093",
                       fontWeight: "800",
+                      border: "none",
+                      paddingBottom: 20,
                     }}
                   >
                     3. Choose the perfect freelancer
@@ -140,7 +150,7 @@ function LightForm() {
               >
                 <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                   <button
-                    class="accordion-button collapsed"
+                    // class="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseFour"
@@ -152,6 +162,8 @@ function LightForm() {
                       background: "none",
                       color: " #909093",
                       fontWeight: "800",
+                      paddingBottom: 20,
+                      border: "none",
                     }}
                   >
                     4. Pay into Escrow account
@@ -167,11 +179,11 @@ function LightForm() {
               </div>
               <div
                 class="accordion-item"
-                style={{ paddingBottom: 10, border: "none" }}
+                style={{ paddingBottom: 40, border: "none" }}
               >
                 <h2 class="accordion-header" id="panelsStayOpen-headingFive">
                   <button
-                    class="accordion-button collapsed"
+                    // class="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseFive"
@@ -183,6 +195,7 @@ function LightForm() {
                       background: "none",
                       color: " #909093",
                       fontWeight: "800",
+                      border: "none",
                     }}
                   >
                     5. Receive your raw file
@@ -199,7 +212,7 @@ function LightForm() {
             </div>
           </div>
           <div
-            className="col-4"
+            className="col-md-5"
             style={{
               background: " #ECECEC",
               paddingTop: 50,
