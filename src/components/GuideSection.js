@@ -5,11 +5,12 @@ import Img1 from "../public/assets/LC1.png";
 import Img2 from "../public/assets/LC2.jpg";
 import Img3 from "../public/assets/LC3.png";
 import Img4 from "../public/assets/LC4.png";
+import "../components/Style/GuideSection.css";
 
 function GuideSection() {
   return (
     <div className="row">
-      <div className="col">
+      <div className="col guide-h2">
         <h2
           style={{
             color: "#18181F",
@@ -17,13 +18,14 @@ function GuideSection() {
             fontWeight: 700,
             paddingLeft: 30,
             paddingBottom: 10,
+            marginTop: 50,
           }}
         >
           Tips/Guide for Everyone
         </h2>
         <hr />
         <div style={{ paddingLeft: 30 }}>
-          <div style={{ display: "flex", gap: 10, paddingBottom: 40 }}>
+          <div class="guide-button" style={{ gap: 10, paddingBottom: 40 }}>
             <Button
               variant="outline-dark"
               style={{
@@ -108,7 +110,7 @@ function GuideSection() {
               ></i>
             </Button>{" "}
           </div>
-          <div className="row" style={{ width: "80%" }}>
+          <div className="row guide-row" style={{}}>
             <div className="col-md-3 pe-md-3">
               <LightCard
                 src={Img1}

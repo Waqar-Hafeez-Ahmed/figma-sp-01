@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import "../Style/GuideCard.css";
 
 function CCard(props) {
   return (
@@ -33,7 +34,6 @@ function CCard(props) {
           style={{
             fontFamily: "Sora",
             fontWeight: "700",
-            fontSize: 22,
             textAlign: "left",
             paddingTop: 10,
           }}

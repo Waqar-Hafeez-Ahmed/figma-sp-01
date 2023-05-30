@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import GuideSection from "./GuideSection";
+import "../components/Style/LightForm.css";
 
 function LightForm() {
   return (
@@ -51,7 +52,6 @@ function LightForm() {
                     aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseOne"
                     style={{
-                      fontSize: 24,
                       fontFamily: "Sora, sans-serif",
                       background: "none",
                       color: " #909093",
@@ -84,7 +84,6 @@ function LightForm() {
                     aria-expanded="true"
                     aria-controls="panelsStayOpen-collapseTwo"
                     style={{
-                      fontSize: 24,
                       fontFamily: "Sora, sans-serif",
                       background: "none",
                       color: "black",
@@ -124,7 +123,6 @@ function LightForm() {
                     aria-expanded="true"
                     aria-controls="panelsStayOpen-collapseThree"
                     style={{
-                      fontSize: 24,
                       fontFamily: "Sora, sans-serif",
                       background: "none",
                       color: " #909093",
@@ -157,7 +155,6 @@ function LightForm() {
                     aria-expanded="true"
                     aria-controls="panelsStayOpen-collapseFour"
                     style={{
-                      fontSize: 24,
                       fontFamily: "Sora, sans-serif",
                       background: "none",
                       color: " #909093",
@@ -190,7 +187,6 @@ function LightForm() {
                     aria-expanded="true"
                     aria-controls="panelsStayOpen-collapseFive"
                     style={{
-                      fontSize: 24,
                       fontFamily: "Sora, sans-serif",
                       background: "none",
                       color: " #909093",

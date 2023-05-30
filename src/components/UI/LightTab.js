@@ -1,4 +1,5 @@
 import React from "react";
+import "../Style/LightTab.css";
 
 function Tab() {
   return (
@@ -6,14 +7,13 @@ function Tab() {
       {/* <!-- Tabs navs --> */}
       <div className="row" style={{ paddingLeft: 25 }}>
         <ul
-          class="nav  mb-3"
+          class="nav  mb-3 light-ul"
           id="ex1"
           role="tablist"
           style={{
             position: "relative",
             display: "flex",
             justifyContent: "start",
-            fontSize: 30,
             fontFamily: "Sora",
             fontWeight: 700,
             background: "none",

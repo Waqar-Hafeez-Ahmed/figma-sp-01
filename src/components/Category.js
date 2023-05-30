@@ -9,11 +9,12 @@ import Img7 from "../public/svg/XMLID_324_.svg";
 import Img8 from "../public/svg/Architecture.svg";
 import Img9 from "../public/svg/Music & Audio.svg";
 import CategoryCard from "./UI/CategoryCard";
+import "../components/Style/Category.css";
 
 function Category() {
   return (
     <div className="container" style={{ color: "white" }}>
-      <h2 style={{ paddingBottom: 30, paddingTop: 100 }}>
+      <h2 className="category-h2" style={{ paddingBottom: 30 }}>
         Get work done in different category
       </h2>
       <hr />

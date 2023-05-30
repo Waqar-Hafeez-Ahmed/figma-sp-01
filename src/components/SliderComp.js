@@ -1,23 +1,24 @@
 import React from "react";
 import SliderSec from "./UI/SliderSec";
+import "../components/Style/SliderComp.css";
 
 function SliderComp() {
   return (
     <div className="container">
       {/* <!-- Tabs navs --> */}
       <ul
-        class="nav nav-tabs mb-3"
+        class="nav nav-tabs mb-3 slider-ul"
         id="ex1"
         role="tablist"
         style={{
           position: "relative",
           display: "flex",
           justifyContent: "start",
-          fontSize: 30,
           fontFamily: "Sora",
           fontWeight: 700,
           background: "none",
           letterSpacing: "-0.025em",
+          paddingBottom: 20,
         }}
       >
         <li class="nav-item" role="presentation">

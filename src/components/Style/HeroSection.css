@@ -29,26 +29,13 @@
   filter: blur(147px);
 }
 
-/* .ellipse2 {
-  position: absolute;
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  width: 676px;
-  height: 676px;
-  left: 1116px;
-  top: -256px;
-  background: #08083c;
-  opacity: 0.55;
-  filter: blur(147px);
-} */
-
 .hero-text h1 {
+  position: relative;
   color: #ffffff;
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.025em;
-  /* z-index: 1; */
+  z-index: 10;
 }
 
 .hero-text p {

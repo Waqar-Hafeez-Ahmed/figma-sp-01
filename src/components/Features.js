@@ -1,5 +1,5 @@
 import React from "react";
-import "./Features.css";
+import "../components/Style/Features.css";
 import Img1 from "../public/svg/daimond icon.svg";
 import Img2 from "../public/svg/USDC icon.svg";
 import Img3 from "../public/svg/users icon.svg";
@@ -42,7 +42,6 @@ function Features() {
           display: "flex",
           justifyContent: "center",
           background: "#292A33",
-          // marginTop: -250,
           marginBottom: 20,
           color: "white",
           border: "1px solid #35363D",
@@ -55,7 +54,7 @@ function Features() {
         {arr.map((data) => (
           <div className="col-md-5" style={{ padding: 30, paddingRight: 40 }}>
             <img src={data.img} alt="" style={{ paddingBottom: 10 }} />
-            <h1 style={{ fontSize: 30 }}>{data.heading}</h1>
+            <h2>{data.heading}</h2>
             <p
               style={{
                 color: "rgba(209, 209, 210, 1)",

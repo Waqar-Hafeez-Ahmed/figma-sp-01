@@ -21,7 +21,7 @@ function JoinUs() {
         <h1
           style={{
             fontFamily: "Sora",
-            fontSize: 56,
+            // fontSize: 56,
             fontWeight: 700,
             color: "#18181F",
             maxWidth: 599,
@@ -34,7 +34,7 @@ function JoinUs() {
           style={{
             color: "#4F5054",
             opacity: 0.8,
-            fontSize: 18,
+            // fontSize: 18,
             maxWidth: 659,
             paddingTop: 20,
             fontWeight: 500,

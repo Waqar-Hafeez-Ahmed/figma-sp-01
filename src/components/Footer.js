@@ -5,6 +5,7 @@ import Img2 from "../public/svg/linkedin.svg";
 import Img3 from "../public/svg/twitte.svg";
 import Img4 from "../public/svg/reddit.svg";
 import Img5 from "../public/svg/youtube.svg";
+import "../components/Style/Footer.css";
 
 function Footer() {
   const arr = [Img1, Img2, Img3, Img4, Img5];
@@ -12,8 +13,8 @@ function Footer() {
   return (
     <div className="container-fluid " style={{ paddingTop: 100 }}>
       <div
-        className="row"
-        style={{ paddingLeft: 30, maxWidth: "85%", marginBottom: 80 }}
+        className="row footer-row"
+        style={{ paddingLeft: 30, marginBottom: 80 }}
       >
         <div
           className="col-md-2"
@@ -528,8 +529,8 @@ function Footer() {
       <hr style={{ color: "white" }} />
       {/* Second Row  */}
       <div
-        className="row"
-        style={{ paddingLeft: 30, maxWidth: "85%", marginBottom: 80 }}
+        className="row footer-row "
+        style={{ paddingLeft: 30, marginBottom: 80 }}
       >
         <div className="col">
           <ul>

@@ -1,14 +1,10 @@
 import banner from "../public/assets/woman image.png";
 import ellipse from "../public/assets/Ellipse 39.png";
-// import ellipse2 from "../public/assets/Ellipse 40.png";
 import eth from "../public/svg/Union.svg";
-// import image from "../public/assets/hero image (2).png";
-// import image2 from "../public/assets/image 7.png";
-// import pattern from "../public/assets/Vector.png";
-// import pattern2 from "../public/assets/Vector (1).png";
-
+import image from "../public/assets/hero image (2).png";
+import image2 from "../public/assets/image 7.png";
+import Card from "./UI/HeroCard";
 import "./Style/HeroSection.css";
-// import Card from "./UI/HeroCard";
 import RatingBox from "./UI/RatingBox";
 import InputFeild from "./UI/InputFeild";
 import NavBar from "./UI/NavBar";
@@ -60,10 +56,10 @@ const HeroSection = () => {
 
         <RatingBox />
 
-        {/* <div className="flex-container">
-        <Card className="banner-image2" img={image} />
-        <Card className="banner-image2" img={image2} />
-      </div> */}
+        <div className="flex-container">
+          <Card className="banner-image2" img={image} />
+          <Card className="banner-image2" img={image2} />
+        </div>
         {/* <Card className="banner-image3" img={image} /> */}
         {/* 
       <img className="vector" src={pattern} alt="women" />

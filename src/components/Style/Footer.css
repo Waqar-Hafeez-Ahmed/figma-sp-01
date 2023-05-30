@@ -1,4 +1,19 @@
-.social-media {
+.footer-row {
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  .footer-row {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer-row {
+    width: 100%;
+  }
+}
+/* .social-media {
   margin-top: 15px;
 }
 
@@ -17,7 +32,7 @@
 .social-media ul li a {
   /* display: inline-block; */
 
-  width: 45px;
+/* width: 45px;
   height: 45px;
   line-height: 45px;
   border-radius: 50%;
@@ -33,4 +48,4 @@
   background: #b78c33;
   color: #fff;
   border-color: #b78c33;
-}
+} */

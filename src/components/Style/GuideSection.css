@@ -1,0 +1,25 @@
+.guide-row {
+  width: 80%;
+}
+
+.guide-h2 h2 {
+  padding-top: 100px;
+}
+.guide-button {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .guide-row {
+    width: 95%;
+    margin-top: 50px;
+  }
+
+  .guide-button {
+    display: none;
+  }
+
+  .guide-h2 h2 {
+    padding-top: 20px;
+  }
+}
