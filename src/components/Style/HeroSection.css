@@ -46,6 +46,7 @@
   line-height: 158%;
   color: #d1d1d2;
   opacity: 0.8;
+  z-index: 10;
 }
 
 .union {
@@ -69,7 +70,7 @@
   display: flex;
   justify-content: center;
   /* background: none; */
-  z-index: 1;
+  z-index: 10;
 }
 
 .banner-image img {
@@ -77,6 +78,7 @@
   width: 80%;
   background: #8ac186;
   border-radius: 20px;
+  z-index: 1;
 }
 
 .flex-container {
